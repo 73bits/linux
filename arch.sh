@@ -83,7 +83,7 @@ passwd
 
 ## pkg installation
 pacman -S --noconfirm bash-completion dosfstools efibootmgr \
-	gcc gdb git grub make man-db neovim networkmanager sudo
+	gcc git grub make man-db neovim networkmanager sudo
 
 ## boot loader configuration
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
