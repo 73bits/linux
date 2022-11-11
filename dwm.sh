@@ -11,8 +11,8 @@ echo "----- downloading required packages -----"
 sudo pacman -S --noconfirm libxft xdotool xorg-server xorg-xinit xwallpaper
 
 ## other basic packages
-sudo pacman -S --noconfirm acpilight alacritty bluez bluez-utils dunst exa \
-	firefox go gvfs-mtp libnotify maim mpv nodejs ntfs-3g pcmanfm picom \
+sudo pacman -S --noconfirm acpilight alacritty bluez bluez-utils dunst \
+	firefox gvfs-mtp libnotify maim mpv nodejs ntfs-3g pcmanfm picom \
 	pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulsemixer sxiv \
 	ttf-fantasque-sans-mono ttf-joypixels unzip xclip xdg-user-dirs yarn \
 	yt-dlp zathura zathura-pdf-mupdf zip
