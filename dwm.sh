@@ -18,7 +18,7 @@ sudo pacman -S --noconfirm acpilight alacritty bluez bluez-utils dunst \
 	yt-dlp zathura zathura-pdf-mupdf zip
 
 ## dwm utility
-git clone https://github.com/73bits/dwm.git ${HOME}/.local/src/dwm
+git clone https://git.suckless.org/dwm ${HOME}/.local/src/dwm
 sed -i 's/^XINERAMA/#XINERAMA/g' ${HOME}/.local/src/dwm/config.mk
 sudo make -C ${HOME}/.local/src/dwm install
 
